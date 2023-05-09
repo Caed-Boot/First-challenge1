@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,4 +15,12 @@ a {
 
 ul {
     list-style: none;
-}
+}   
+
+.main__container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #ffff34;
+} */

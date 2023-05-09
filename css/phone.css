@@ -1,0 +1,103 @@
+:root {
+
+    --shadow: #bce4ff75;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url(../assets/fonts/static/HankenGrotesk-Medium.ttf) format('tff');
+    src: url(../assets/fonts/static/HankenGrotesk-Bold.ttf) format('tff');
+    src: url(../assets/fonts/static/HankenGrotesk-ExtraBold.ttf) format('tff');
+}
+
+html {
+    font-family:'HankenGrotesk', Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}   
+
+.header {
+    display: flex;
+    width: 100%;
+    min-height: 280px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 30px 30px;
+    background: linear-gradient(0deg, #4500f6, #757aff);
+    color: aliceblue;
+}
+
+.header div {
+    margin: 15px 0;
+}
+
+.header__container-title h2 {
+    color: #ffffffe8;
+    font-size: 20px;
+}
+
+.header__porcent{
+    font-size: 40px;
+}
+
+.header__porcent-small {
+    color: #bce4ff75;
+    text-align: center;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+}
+
+.header__container-result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(180deg, #4b00caf0, #5a22ff);
+    border-radius: 50%;
+}
+
+.header__container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header__subtitle {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.header__info-result {
+    font-size: 12px;
+    color: gainsboro;
+    font-weight: 700; 
+}
+
+
+
