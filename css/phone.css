@@ -104,8 +104,8 @@ ul {
     justify-content: center;
     flex-direction: column;
     background: #f6fbff;
-    height: 250px;
-    margin-top: 50px;
+    height: auto;
+    margin-top: 20px;
     padding: 15px;
 }
 
@@ -198,3 +198,23 @@ ul {
     background-color: rgb(196, 207, 255);
 }
 
+.main__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 50px;
+    background: #241e45;
+    border-radius: 25px;
+    transition: background-color 0.5s;
+}
+
+.main__button:hover {
+    background-color: #453a84;
+}
+
+.button__name {
+    color: rgb(238, 238, 238);
+
+}
