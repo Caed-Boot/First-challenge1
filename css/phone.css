@@ -36,7 +36,6 @@ ul {
     flex-direction: column;
     max-width: 415px;
     margin: auto;
-    border: 1px solid black;
 }
 
 .header {
@@ -117,6 +116,7 @@ ul {
     height: auto;
     margin-top: 20px;
     padding: 15px;
+    border-radius: 25px;
 }
 
 .main__container-asset {
@@ -235,3 +235,34 @@ ul {
     color: rgb(238, 238, 238);
 
 }
+
+@media only screen and (min-width: 600px) {
+
+    .whole__container {
+        display: flex;
+        flex-direction: row;
+        min-width: 600px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: -1px 0px 15px #01209c4d;
+        border-radius: 25px;
+    }
+    
+    .header {
+        margin: 0;
+        border-radius: 20px ;
+        width: 50%;
+    }
+
+    .main__container {
+        width: 50%;
+        
+    }
+
+    .main__title{
+        margin: 10px;
+    }
+    
+  }
